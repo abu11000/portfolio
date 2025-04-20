@@ -1,0 +1,290 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1F242D;
+    height: 50px;
+
+}
+
+header div {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: aqua;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+span {
+    color: aqua;
+}
+
+.main button {
+    width: 176.58999633789062px;
+    height: 45px;
+
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background: aqua;
+    color: black;
+    border: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main h1 {
+    width: 379.42767333984375px;
+    height: 72.80000305175781px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 72.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+
+
+}
+
+.main h2 {
+    width: 192.73951721191406px;
+    height: 45px;
+
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+}
+
+.main h3 {
+    width: 437.5503845214844px;
+    height: 45px;
+    top: 1px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+
+
+}
+
+main {
+    background: #1F242D;
+}
+
+.h1 {
+    width: 290.983154296875px;
+    height: 63px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.sec button {
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background: aqua;
+    color: black;
+    border: none;
+    width: 151px;
+    height: 45px;
+    margin-top: 15px;
+
+}
+
+.sec div {
+    width: 380.2699890136719px;
+    height: 369px;
+
+    border-radius: 20px;
+    border-width: 2px;
+    background: #323946;
+    text-align: center;
+
+}
+
+.sec div h3 {
+    width: 247.6623992919922px;
+    height: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+.sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img img {
+    border-radius: 10px;
+    width: 376.94000244140625px;
+    height: 251.6699981689453px;
+
+}
+
+section {
+    background: #323946;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    width: 343px;
+    height: 55px;
+    border-radius: 20px;
+    background: #323946;
+
+
+}
+
+form {
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+form textarea {
+    width: 700px;
+    height: 280px;
+
+    border-radius: 8px;
+    background: #323946;
+
+
+
+}
+
+.sec1 button {
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    background: aqua;
+    color: black;
+    border: none;
+    width: 151px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 650px;
+
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    background: #323946;
+
+}
+.icon{
+    display: none;
+    
+}
+
+@media(max-width:1000px) {
+    .sec div {
+        width: 268.1700134277344px;
+        height: 337.95001220703125px;
+
+        border-radius: 17.6px;
+        border-width: 1px;
+
+    }
+
+}
+
+@media(max-width:900px) {
+    .sec div {
+        width: 352.1700134277344px;
+        height: 316.95001220703125px;
+
+        border-radius: 17.6px;
+        border-width: 1px;
+
+    }
+
+    .card{
+        width: 90% !important;
+       
+height: 274.95001220703125;
+
+border-radius: 17.6px;
+border-width: 1px;
+margin-top: 20px;
+
+    }
+}
+
+@media(max-width:850px){
+    .aaa{
+        display: none;
+    }
+    .icon{
+        display: block;
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+    }
+}
